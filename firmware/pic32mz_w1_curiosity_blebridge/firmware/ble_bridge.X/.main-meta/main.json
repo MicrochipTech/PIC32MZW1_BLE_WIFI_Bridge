@@ -3,10 +3,10 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.3.0",
-		"name": "com.microchip.mcu32.mplabx.pic32mz_w1_curiosity_blebridge",
+		"name": "com.microchip.mcu32.mplabx.project.PIC32MZW1_BLE_WIFI_Bridge",
 		"version": "3.6.1",
-		"displayName": "BLE Bridge over UART (curiosity)",
-		"projectName": "pic32mz_w1_curiosity_blebridge",
+		"displayName": "BLE WiFi Bridge",
+		"projectName": "PIC32MZW1_BLE_WIFI_Bridge",
 		"shortDescription": "This example application running on curiosity-board bridge the BLE TransparentUART Service over the WFI32E01's UART",
 		"ide": {
 			"name": "MPLABX",
@@ -38,7 +38,7 @@
 		},
 		"author": "Microchip",
 		"peripherals": [
-			"Wi-Fi", "BLE"
+			"Wi-Fi"
 		],
 		"keywords": [
 			"MHC",
@@ -50,7 +50,9 @@
 			"wireless",
 			"WIFI",
 			"BLE",
-			"Bridge"
+			"Bridge",
+			"WFI32-CURIOSITY",
+			"WFI32-IOT"
 		],
 		"additionalData": {
 			"longDescription": {
